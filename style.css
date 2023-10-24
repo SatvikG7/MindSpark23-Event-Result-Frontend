@@ -159,7 +159,7 @@ body * {
   padding: 4px 12px;
   border-radius: 16px;
   color: white;
-  background-color: blueviolet;
+  background-color: var(--primary-color-darker);
 }
 
 .display .hide {

@@ -82,9 +82,9 @@ get(ref(db, "/result"))
                     const item = app.data.find((item) => item.name === event);
                     let modalBody = document.createElement("div");
                     console.log(item);
-                    item.result.forEach((e) => {
+                    item.result.forEach((e, index) => {
                         let result = document.createElement("p");
-                        result.innerHTML = e;
+                        result.innerHTML = index+1 + ". " + e;
                         modalBody.appendChild(result);
                     });
                     let modal = document.createElement("div");
@@ -107,7 +107,7 @@ get(ref(db, "/result"))
                     modal.style.display = "block";
                     modal.style.backdropFilter = "blur(4px)";
                     modal.querySelector(".modal-content").style.background =
-                        "#b6b7ff";
+                        "var(--secondary-color-darker)";
                     modal
                         .querySelector(".btn-close")
                         .addEventListener("click", function () {

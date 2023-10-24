@@ -1,5 +1,6 @@
 // vite.config.js
 import { defineConfig } from "vite";
 export default defineConfig({
-    base: "/result/",
+    // base: "/result/",
+    base: "/",
 });
