@@ -1,0 +1,46 @@
+{
+  "result": [
+    {
+      "mname": "Amuzia",
+      "result": [
+        {
+          "ename": "Fandom",
+          "winners": [
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "ename": "Flash",
+          "winners": [
+            "D",
+            "E",
+            "F"
+          ]
+        }
+      ]
+    },
+    {
+      "mname": "Avionica",
+      "result": [
+        {
+          "ename": "Take Off",
+          "winners": [
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "ename": "Contraption",
+          "winners": [
+            "D",
+            "E",
+            "F"
+          ]
+        }
+      ]
+    }
+  ]
+}
